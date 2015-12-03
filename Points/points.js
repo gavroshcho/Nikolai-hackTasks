@@ -37,4 +37,4 @@ function findCoordinates(x, y, word) {
 		}
 		return [x, y];
 }
-console.log(findCoordinates(0, 0, ">>><<<~>>>~^^^"));
+console.log(findCoordinates(0, 0, "~>>><<<^^^vvv"));
