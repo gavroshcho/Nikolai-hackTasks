@@ -48,7 +48,9 @@ function findInAllDirections(row, char, word) {
   var finishChar = char + 1;
 
   for (var i = startingRow; i <= finishRow; i++) {
+  	console.log("This is i: " + i);
     for (var c = startingChar; c <= finishChar; c++) {
+    	  	console.log("This is c: " + c);
       if (table[i] && table [i][c]) {
         if (table[i][c] === word.slice(1, 2)) {
           currentCheck = currentCheck.slice(0, 1);
